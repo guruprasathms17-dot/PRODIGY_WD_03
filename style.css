@@ -281,3 +281,14 @@ html, body {
   .app{ padding:1.2rem .8rem 2rem; gap:1.1rem; }
   .mode-btn .mode-text{ font-size:.7rem; }
 }
+.developer{
+  font-family: var(--body);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(241,245,249,0.45);
+  margin-top: 0.65rem;
+  text-align: center;
+  transition: color 0.3s ease;
+}
