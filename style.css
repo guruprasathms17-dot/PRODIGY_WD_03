@@ -26,13 +26,7 @@ html, body {
 }
 
 /* ===== BG ===== */
-.bg-grid {
-  position: fixed; inset: 0; pointer-events: none; z-index: 0;
-  background-image:
-    linear-gradient(rgba(129,140,248,.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(129,140,248,.04) 1px, transparent 1px);
-  background-size: 44px 44px;
-}
+
 .orb {
   position: fixed; border-radius: 50%; filter: blur(120px);
   pointer-events: none; z-index: 0; opacity: .28;
@@ -58,14 +52,7 @@ html, body {
 }
 
 /* ===== HEADER ===== */
-.badge {
-  display: inline-block;
-  font-size:.6rem; letter-spacing:.22em; font-weight:500;
-  color:var(--violet); border:1px solid var(--border);
-  background:rgba(129,140,248,.07);
-  padding:.28rem .9rem; border-radius:100px; margin-bottom:.7rem;
-  text-transform:uppercase;
-}
+
 .logo {
   font-family: var(--orb-font);
   font-size: clamp(2rem,9vw,3.2rem);
